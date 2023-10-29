@@ -1,0 +1,16 @@
+.custom-cursor {
+    z-index: 1000;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+    pointer-events: none;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    position: fixed;
+}
+
+@media (prefers-color-scheme: light) {
+    .custom-cursor {
+        border: 1px solid #000;    }
+  }
