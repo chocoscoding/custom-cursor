@@ -8,6 +8,7 @@
     overflow: hidden;
     transform: translate3d(0,0,0);
     position: fixed;
+    overflow: hidden;
 }
 
 @media (prefers-color-scheme: light) {
